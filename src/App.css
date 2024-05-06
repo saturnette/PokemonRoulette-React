@@ -1,0 +1,90 @@
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.center {
+  margin-bottom: 20px;
+}
+
+.team-name {
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: bold;
+
+}
+
+
+.pokemon-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pokemon-card {
+  margin: 0 10px 20px;
+  text-align: center;
+}
+
+.tier-badge {
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  margin-left: 8px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  font-weight: bold; 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); 
+}
+.bold-text {
+  font-weight: bold;
+}
+
+.ou-badge {
+  background-color: #4CAF50; 
+  color: white;
+}
+
+.uubl-badge {
+  background-color: blue;
+  color: white;
+}
+
+.uu-badge {
+  background-color: red;
+  color: white;
+}
+
+.rubl-badge {
+  background-color: purple;
+  color: white;
+}
+
+.ru-badge {
+  background-color: orange;
+  color: white;
+}
+
+.title{
+  color: rgb(255, 255, 255);
+}
+
+.xd-badge {
+  background-color: gray;
+  color: white;
+}
